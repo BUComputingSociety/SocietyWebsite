@@ -1,23 +1,19 @@
 #topImages {
     width: 100%;
-    display: inline;
+    text-align: center;
 }
 
 #topImages img{
-    max-width: 20%;
-    float: left;
-}
-
-#compsocimg{
-    margin-left: 25%;
-}
-
-#complogoimg{
-    padding-top: 45px;
+    max-width: 25%;
+    display: inline-block;
 }
 
 #title{
-    float: left;
-    display: inline;
-    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+#info{
+    text-align: center;
+    width: 100%;
 }
