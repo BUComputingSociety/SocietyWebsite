@@ -1,6 +1,8 @@
 #topImages {
-    width: 100%;
     text-align: center;
+}
+#about{
+    width: 100%;
 }
 
 #topImages img{
@@ -10,10 +12,12 @@
 
 #title{
     text-align: center;
-    width: 100%;
 }
 
 #info{
-    text-align: center;
-    width: 100%;
+    margin: 0 15%;
+}
+
+li{
+    list-style-type: none;
 }
