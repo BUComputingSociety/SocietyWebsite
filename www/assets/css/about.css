@@ -1,0 +1,23 @@
+#topImages {
+    width: 100%;
+    display: inline;
+}
+
+#topImages img{
+    max-width: 20%;
+    float: left;
+}
+
+#compsocimg{
+    margin-left: 25%;
+}
+
+#complogoimg{
+    padding-top: 45px;
+}
+
+#title{
+    float: left;
+    display: inline;
+    margin: 0 auto;
+}
