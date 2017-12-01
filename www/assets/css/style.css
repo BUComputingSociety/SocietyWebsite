@@ -1,0 +1,21 @@
+#pageContainer{width: 100%;}
+
+header{width:100%; background: #636363; color: white; text-align: center;}
+header img {max-width: 20%; display: inline;}
+#headerTitle{display: inline-block; margin: 0 100px 0 100px; vertical-align: middle;}
+#headerTitle h1{font-size: 3rem;}
+
+.navbar ul{width:100%;}
+.navbar ul li{margin-left: 15%;}
+
+#background{min-width: 100%; max-height: 500px;}
+
+#about{margin-top: 50px;}
+#aboutTitle{text-align: center; margin-bottom: 30px;}
+#aboutInfo{margin: 0 15%;}
+#aboutInfo li{list-style-type: none;}
+
+footer{width: 100%; background: #636363; color: white; border-top: solid 5px; border-color: #343A40;}
+footer p{margin: 0 60% 0 5%; ;display: inline;vertical-align: middle;}
+footer img{max-width: 5%; display: inline; vertical-align: middle;}
+#buLogo{margin-right: 10px;}
