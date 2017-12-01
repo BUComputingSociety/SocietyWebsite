@@ -2,12 +2,12 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/style.css">
         <script src="assets/js/jquery-3.2.1.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
         <script src="assets/js/loadHTML.js"></script>
-        <title>About</title>
+        <title>BU Computing Society</title>
     </head>
     <body>
         <div id="pageContainer">
@@ -19,8 +19,11 @@
                 </section>
                 <img id="secondLogo" src="assets/images/LogoComputing01.png">
             </header>
-            <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+            <nav id="sectionNav" class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
                 <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pageContainer">Home</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About</a>
                     </li>
@@ -35,6 +38,7 @@
                     </li>
                 </ul>
             </nav>
+            <img id="background" src="assets/images/background.jpg">
             <section class="container" id="about"></section>
             <section class="container" id="committee"></section>
             <section class="container" id="events"></section>

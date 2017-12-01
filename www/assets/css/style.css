@@ -6,13 +6,13 @@ header img {max-width: 20%; display: inline;}
 #headerTitle h1{font-size: 3rem;}
 
 .navbar ul{width:100%;}
-.navbar ul li{margin-left: 15%;}
+.navbar ul li{margin: 0 auto;}
 
-#background{min-width: 100%; max-height: 500px;}
+#background{max-width: 100%;}
 
-#about{margin-top: 50px;}
+#about{margin-top: 30px;}
 #aboutTitle{text-align: center; margin-bottom: 30px;}
-#aboutInfo{margin: 0 15%;}
+#aboutInfo{margin: 0 15% 30px;}
 #aboutInfo li{list-style-type: none;}
 
 footer{width: 100%; background: #636363; color: white; border-top: solid 5px; border-color: #343A40;}
