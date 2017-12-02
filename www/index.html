@@ -1,21 +1,54 @@
 <!DOCTYPE html>
-<html lang = "en">
-	<head>
-		<meta charset="utf-8">
-		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-		<script src="assets/js/jquery-3.2.1.min.js"></script>
-		<script src="assets/js/bootstrap.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="assets/css/index.css">
-		<title>BU Computing Society</title>
-	</head>
-	<body>
-		<header class = "container">
-			<img src="assets/images/ComputingSociety.png" alt="Logo">
-			<h1>BU Computing Society</h1>
-		</header>
-		<section class = "container">
-			<h3>Thank you for Visiting!</h3>
-			<h3>Unfortunately this website is still under construction, we expect to have it up and running by January  at the latest.</h3>
-		</section>
-	</body>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <script src="assets/js/jquery-3.2.1.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/loadHTML.js"></script>
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon"/>
+        <title>BU Computing Society</title>
+    </head>
+    <body>
+        <div id="home">
+            <header>
+                <img id="mainLogo" src="assets/images/ComputingSociety.png">
+                <section id="headerTitle">
+                    <h1>Bournemouth University</h1>
+                    <h1 id="secondLine">Computing Society</h1>
+                </section>
+                <img id="secondLogo" src="assets/images/LogoComputing01.png">
+            </header>
+            <nav id="sectionNav" class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#committee">Committee</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#events">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+            <img id="background" src="assets/images/background.jpg">
+            <section class="container" id="about"></section>
+            <section class="container" id="committee"></section>
+            <section class="container" id="events"></section>
+            <section class="container" id="contact"></section>
+            <footer>
+                <p>&copy; BU Computing Society 2017</p>
+                <img id="buLogo" src="assets/images/bulogo.png">
+                <img id="subuLogo" src="assets/images/subulogo.png">
+            </footer>
+        </div>
+    </body>
 </html>
