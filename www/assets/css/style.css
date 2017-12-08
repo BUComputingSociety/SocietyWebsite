@@ -2,18 +2,23 @@
 
 header{width:100%; background: #636363; color: white; text-align: center;}
 header img {max-width: 20%; display: inline;}
-#headerTitle{display: inline-block; margin: 0 100px 0 100px; vertical-align: middle;}
-#headerTitle h1{font-size: 3rem;}
+#headerTitle{display: inline-block; margin: 0 5% 0 5%; vertical-align: middle;}
+#headerTitle h1{font-size: 3.5vw;}
 
 .navbar ul{width:100%;}
 .navbar ul li{margin: 0 auto;}
 
 #background{max-width: 100%;}
 
+#home h2{text-align: center; margin-bottom: 30px;}
+
 #about{margin-top: 30px;}
-#aboutTitle{text-align: center; margin-bottom: 30px;}
 #aboutInfo{margin: 0 15% 30px;}
 #aboutInfo li{list-style-type: none;}
+
+#contact{ width: 100%; text-align: center; margin-bottom: 30px;}
+#subuLink{margin-bottom: 30px;}
+#socialLinks img{max-width: 15%;}
 
 footer{width: 100%; background: #636363; color: white; border-top: solid 5px; border-color: #343A40;}
 footer p{margin: 0 60% 0 5%; ;display: inline;vertical-align: middle;}

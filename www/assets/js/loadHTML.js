@@ -2,6 +2,7 @@ $(document).ready(function(){
 
     $(function(){
         $("#about").load("about.html");
+        $("#contact").load("contactUs.html");
     });
 
     $("#sectionNav").find("a").on('click', function (event) {
