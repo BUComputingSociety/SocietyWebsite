@@ -2,6 +2,7 @@ $(document).ready(function(){
 
     $(function(){
         $("#about").load("about.html");
+        $("#committee").load("committee.html");
         $("#contact").load("contactUs.html");
     });
 
