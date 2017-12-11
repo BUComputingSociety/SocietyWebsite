@@ -11,13 +11,17 @@ $(document).ready(function(){
         if(this.hash !== "") {
             event.preventDefault();
             var hash = this.hash;
-            if (this.hash !== "#home") {
-                $('html, body').animate({
-                    scrollTop: ($(hash).offset().top) - (($(window).height()) / 4)
-                }, 1000);
-            } else {
+            if (this.hash === "#home") {
                 $('html, body').animate({
                     scrollTop: 0
+                }, 1000);
+            } else if(this.hash ==="#contact") {
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 1000);
+            }else{
+                $('html, body').animate({
+                    scrollTop: ($(hash).offset().top) - (($(window).height()) / 4)
                 }, 1000);
             }
         }

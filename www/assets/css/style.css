@@ -29,25 +29,27 @@ header img {max-width: 20%; display: inline;}
 
 #committee{width:100%; margin-top:30px; margin-bottom: 60px; overflow: auto;}
 .profile {width:50%; float:left; margin-bottom: 30px;}
-.profile h2{font-size: 1.5rem}
+.profile h2{font-size: 2vw}
 #committee h2{text-align: center;}
 #committee img{width:50%; float:left; border: 5px solid #343A40;}
-#committee table{float:left; width:50%;}
+#committee table{float:left; width:50%; font-size: 1.25vw;}
 .first-tr td, .first-tr th{padding-top: 0;}
 .borderless td, .borderless th{border: none;}
-#treasurer{margin: 0 25% 0 25%}
 
 #events{margin-top: 30px; margin-bottom: 60px;}
-.carousel-item{width:80%; margin: 0 auto;}
+.carousel-inner {margin:auto; width: 80%;overflow: auto; min-height: 250px;}
+.carousel-item h2{font-size: 1.5rem; margin-bottom: 10px!important; max-width:100%; float: left;}
+.carousel-item p{max-width: 50%; float: left;}
+.eventImage{max-width: 20%; float:left; margin-right: 5%; border: 2px solid #343A40;}
 .carousel-control-next, .carousel-control-prev{width:max-content;height:max-content; margin-right: 5%; margin-left: 5%;}
 .carousel-control-next-icon:after{content: '>'; font-size: 55px; color: black;}
 .carousel-control-prev-icon:after {content: '<';font-size: 55px;color: black;}
 
-#contact{text-align: center; margin-top:30px; margin-bottom: 30px; display: block;}
+#contact{text-align: center; margin-top:30px; margin-bottom: 5px; display: block;}
 #subuLink{margin-bottom: 30px;}
 #socialLinks img{max-width: 15%;}
 
-footer{width: 100%; background: #636363; color: white; border-color: #343A40;border-top: 5px solid;}
+footer{width: 100%; background: #636363; color: white; border-top: 5px solid; border-color: #343A40;}
 footer p{margin: 0 60% 0 5%; ;display: inline;vertical-align: middle;}
 footer img{max-width: 5%; display: inline; vertical-align: middle;}
 #buLogo{margin-right: 10px;}
