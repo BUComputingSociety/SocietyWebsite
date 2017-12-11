@@ -26,6 +26,7 @@ header img {max-width: 20%; display: inline;}
 #about{margin-top: 30px; margin-bottom: 60px;}
 #aboutInfo{margin: 0 15% 30px;}
 #aboutInfo li{list-style-type: none;}
+#aboutInfo img{display: block; margin: auto;}
 
 #committee{width:100%; margin-top:30px; margin-bottom: 60px; overflow: auto;}
 .profile {width:50%; float:left; margin-bottom: 30px;}
@@ -35,6 +36,7 @@ header img {max-width: 20%; display: inline;}
 #committee table{float:left; width:50%; font-size: 1.25vw;}
 .first-tr td, .first-tr th{padding-top: 0;}
 .borderless td, .borderless th{border: none;}
+.table td, .table th{padding: .5em!IMPORTANT;}
 
 #events{margin-top: 30px; margin-bottom: 60px;}
 .carousel-inner {margin:auto; width: 80%;overflow: auto; min-height: 250px;}
