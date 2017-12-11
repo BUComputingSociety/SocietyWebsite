@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<eventData>
+    <event id="1">
+        <title>RoboCode - November 2017</title>
+        <content>The first in our series of RoboCode tournaments. We introduced new students to the RoboCode API and let them build their own simple robots in Java. At the end of the night we did a single-elimination tournament. RassBerry was our winning bot but the Prize was given to our highest ranking First Year, ChromaZone. The run down of the tournament can be found on our YouTube Channel.</content>
+        <imagePath1>assets/images/events/robocode1.jpg</imagePath1>
+        <imagePath2>assets/images/events/robocode2.jpg</imagePath2>
+    </event>
+    <event id="2">
+        <title>Society Website - Nov/Dec 2017</title>
+        <content>Our first project as a society was to build our own website. First years worked on the core html sections of the website, while more experienced members worked on the fancy features. We decided to hard code this website so that less experienced members could get as much out of it as possible. This project also gave members the opportunity to use Git, a useful tool that isn't taught on the University courses.</content>
+        <imagePath1>none</imagePath1>
+        <imagePath2>none</imagePath2>
+    </event>
+</eventData>
