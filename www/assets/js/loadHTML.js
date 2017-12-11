@@ -3,6 +3,7 @@ $(document).ready(function(){
     $(function(){
         $("#about").load("about.html");
         $("#committee").load("committee.html");
+        $("#events").load("events.html");
         $("#contact").load("contactUs.html");
     });
 

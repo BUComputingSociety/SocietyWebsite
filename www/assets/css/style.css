@@ -37,6 +37,12 @@ header img {max-width: 20%; display: inline;}
 .borderless td, .borderless th{border: none;}
 #treasurer{margin: 0 25% 0 25%}
 
+#events{margin-top: 30px; margin-bottom: 60px;}
+.carousel-item{width:80%; margin: 0 auto;}
+.carousel-control-next, .carousel-control-prev{width:max-content;height:max-content; margin-right: 5%; margin-left: 5%;}
+.carousel-control-next-icon:after{content: '>'; font-size: 55px; color: black;}
+.carousel-control-prev-icon:after {content: '<';font-size: 55px;color: black;}
+
 #contact{text-align: center; margin-top:30px; margin-bottom: 30px; display: block;}
 #subuLink{margin-bottom: 30px;}
 #socialLinks img{max-width: 15%;}
