@@ -47,6 +47,10 @@ header img {max-width: 20%; display: inline;}
 .carousel-control-next-icon:after{content: '>'; font-size: 55px; color: black;}
 .carousel-control-prev-icon:after {content: '<';font-size: 55px;color: black;}
 
+#calendar{width: 100%; margin-top: 30px;}
+#upcoming{font-size: 1.5rem; margin-bottom: 0px!important;}
+object{display: block; margin: 0 auto;}
+
 #contact{text-align: center; margin-top:30px; margin-bottom: 5px; display: block;}
 #subuLink{margin-bottom: 30px;}
 #socialLinks img{max-width: 15%;}
@@ -55,3 +59,4 @@ footer{width: 100%; background: #636363; color: white; border-top: 5px solid; bo
 footer p{margin: 0 60% 0 5%; ;display: inline;vertical-align: middle;}
 footer img{max-width: 5%; display: inline; vertical-align: middle;}
 #buLogo{margin-right: 10px;}
+
